@@ -1,0 +1,19 @@
+.float-cart {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  color: #333;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+  background-color:#333;
+  box-shadow: 1px #333; 
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.float-cart:hover {
+  background-color:  rgba(122, 187, 128, 0.637);
+}
