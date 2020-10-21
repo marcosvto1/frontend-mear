@@ -16,7 +16,7 @@ export const Header = () => {
             <Nav className="ml-auto">
               <Nav.Link href="#home"><span style={{ fontSize: '1.8em' }}>🛒</span> Carrinho</Nav.Link>
               <Nav.Link href="#home">
-              <span style={{ fontSize: '1.8em' }}>🤝</span>Login</Nav.Link>
+              <span style={{ fontSize: '1.8em' }}>🚪🚶</span>Login</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
