@@ -6,16 +6,16 @@ import Product from '../../components/Product';
 
 export const HomeScreen = () => {
   return (
-    <div>
+    <>
       <h1>Últimos Lançamentos</h1>
-      <Row className="d-flex justify-content-center">
-        { products.map((product) => {
-          return <div className="my-3 p-2">
-              <Product product={product}/>
-          </div>
+      <Row>
+        { products.map((product, indexForKey) => {
+          return <Col md={4} sm={12} xs={12} className="mb-2">
+              <Product key={indexForKey} product={product}/>
+          </Col>
         } ) }
       </Row>
-    </div>
+    </>
   );
 }
 
